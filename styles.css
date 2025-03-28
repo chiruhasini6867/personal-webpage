@@ -105,6 +105,70 @@ h2 {
     color: #5cdced;
     font-size: 2em;
 }
+.resume {
+    text-align: center;
+    padding: 40px;
+    background-color: #030303;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.resume h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    color: #34d1ec;
+}
+
+.resume-section {
+    margin: 15px 0;
+    text-align: left;
+    max-width: 600px;
+    margin: auto;
+}
+
+.resume-section h3 {
+    font-size: 22px;
+    color: #37d3ee;
+    margin-bottom: 10px;
+}
+
+.resume-section p, .resume-section ul {
+    font-size: 16px;
+    color: #fdfdfd;
+}
+
+.resume-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.resume-section ul li {
+    margin: 5px 0;
+    padding-left: 15px;
+    position: relative;
+}
+
+.resume-section ul li::before {
+    content: "✔";
+    position: absolute;
+    left: 0;
+    color: #28a745;
+}
+
+.resume .btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.resume .btn:hover {
+    background-color: #0056b3;
+}
 
 
 /* Skills Section */
